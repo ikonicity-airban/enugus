@@ -1,29 +1,42 @@
 {
   "expo": {
-    "name": "enugus-app",
-    "slug": "enugus-app",
+    "name": "Enugus",
+    "slug": "enugus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "scheme": "enugus",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "experiments": {
+      "typedRoutes": true
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.enugus"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.enugusapp"
+      "package": "com.enugus.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a94a2e0f-e6d2-46c3-a743-e42fb373722a"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
