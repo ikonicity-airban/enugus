@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { Tabs, TabList, TabTrigger, TabSlot } from "expo-router/ui";
 import { TabButton } from "../components/tab-button";
 
@@ -23,11 +23,6 @@ const Layout = () => {
           <TabTrigger name="agents" href="/agents" asChild>
             <TabButton icon="people-outline">Agents</TabButton>
           </TabTrigger>
-          <TabTrigger name="about-us" href="/about-us" asChild>
-            .
-          </TabTrigger>
-          <TabTrigger name="about-us" href="/contact-us" asChild>
-          </TabTrigger>
         </TabList>
       </Tabs>
     </>
@@ -47,5 +42,6 @@ const styles = StyleSheet.create({
     margin: 10,
     paddingHorizontal: 10,
     borderRadius: 9999,
+    overflowX: "scroll",
   },
 });
