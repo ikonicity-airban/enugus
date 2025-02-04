@@ -18,7 +18,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.enugus"
+      "bundleIdentifier": "com.enugus.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,13 +30,16 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "a94a2e0f-e6d2-46c3-a743-e42fb373722a"
-      }
-    },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "eace605d-44f3-43f7-887c-2901918fb9a6"
+      }
+    }
   }
 }

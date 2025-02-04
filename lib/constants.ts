@@ -1,5 +1,4 @@
 import { CardProps } from "./types";
-import { siteDetails } from "./utils";
 
 // Define your website URLs
 export const URLs = {
@@ -24,7 +23,7 @@ export const gridData: CardProps[] = [
     title: 'About Us',
     description: 'Learn more about Enugus',
     icon: 'planet-outline',
-    route: siteDetails.siteUrl + '/about-us',
+    route: '/about-us',
   },
   {
     id: '4',
@@ -45,7 +44,7 @@ export const gridData: CardProps[] = [
     title: 'Contact Us',
     description: 'Get in touch with us',
     icon: 'phone-portrait-outline',
-    route: siteDetails.siteUrl + '/contact-us',
+    route: '/contact-us',
   },
   {
     id: '7',

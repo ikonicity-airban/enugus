@@ -7,7 +7,7 @@ export type CardProps = {
     title: string;
     icon: Icon;
     description: string;
-    route: ExpoRouter.__routes<RelativePathString>['href'] | string;
+    route: ExpoRouter.__routes<RelativePathString>['href'] ;
   };
 
 export type Icon = ComponentProps<typeof Ionicons>["name"];

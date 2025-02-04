@@ -1,11 +1,9 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import WebViewPage from '../../components/screen'
+import { URLs } from '../../lib/constants'
 
 const ContactUsScreen = () => {
   return (
-    <View>
-      <Text>ContactUsScreen</Text>
-    </View>
+    <WebViewPage url={URLs.contactus} />
   )
 }
 

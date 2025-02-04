@@ -8,7 +8,7 @@ const Layout = () => {
       <Tabs>
         <TabSlot />
         <TabList style={styles.tabList}>
-          <TabTrigger tabIndex={0} name="aot" href="/aot" asChild>
+          <TabTrigger tabIndex={0} name="home" href="/home" asChild>
             <TabButton icon="home-outline">Home</TabButton>
           </TabTrigger>
           <TabTrigger name="blogs" href="/blogs" asChild>
@@ -22,6 +22,11 @@ const Layout = () => {
           </TabTrigger>
           <TabTrigger name="agents" href="/agents" asChild>
             <TabButton icon="people-outline">Agents</TabButton>
+          </TabTrigger>
+          <TabTrigger name="about-us" href="/about-us" asChild>
+            .
+          </TabTrigger>
+          <TabTrigger name="about-us" href="/contact-us" asChild>
           </TabTrigger>
         </TabList>
       </Tabs>

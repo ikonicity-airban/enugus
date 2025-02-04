@@ -1,13 +1,4 @@
-import Animated, {
-  FadeInDown,
-  FadeInUp,
-  LinearTransition,
-  SlideInUp,
-  useAnimatedStyle,
-  useSharedValue,
-  withDelay,
-  withTiming,
-} from "react-native-reanimated";
+import Animated, { SlideInUp, useAnimatedStyle, useSharedValue, withDelay, withTiming } from "react-native-reanimated";
 import { gridData } from "../../lib/constants";
 import { Ionicons } from "@expo/vector-icons"; // Add this import
 import { CardProps } from "../../lib/types";
@@ -109,7 +100,7 @@ const Header = () => {
   return (
     <Animated.View
       style={{
-        height: 100,
+        height: 130,
         backgroundColor: "#eaeaea",
         borderColor: "#fff",
         borderWidth: 1,
