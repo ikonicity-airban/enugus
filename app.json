@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.enugus.app"
+      "package": "com.enugus-app.pro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
